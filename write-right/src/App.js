@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [ocrText, setOcrText] = useState("");
@@ -40,11 +41,16 @@ function App() {
     <div className="App">
       <h1>Write Right!</h1>
         <form onSubmit={handleFormSubmit}>
+          <div className="input">
+          <button className="b">Upload Handwritten Image</button>
           <input type="file" onChange={handleFileInputChange} />
           <input type="submit" value="Extract Text" />
+          </div>
        </form>
        <p className="text">{ocrText}</p>
-       <img src={viewImg} />
+       <img src={viewImg}
+            width="50%"
+            height="50%"/>
      </div>
   );
 }

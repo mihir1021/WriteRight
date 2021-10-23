@@ -1,4 +1,5 @@
 .App {
+  font: Georgia;
   text-align: center;
 }
 
@@ -11,6 +12,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body {
+  background-color: #ccaf9b;
+  color: #a06b39;
 }
 
 .App-header {
@@ -26,6 +32,53 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #312921;
+  background-color: #ccaf9b;
+}
+
+input[type="submit"] {
+  border: 2px solid #c6c3b3;
+  color: #312921;
+  background-color: #c6c3b3;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 4px;
+  font: Georgia;
+}
+
+img {
+  border: 5px solid #312921;
+  border-radius: 8px;
+}
+
+.b {
+  border: 2px solid #312921;
+  color: #c6c3b3;
+  background-color: #312921;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.input input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  opacity: 0;
 }
 
 @keyframes App-logo-spin {
