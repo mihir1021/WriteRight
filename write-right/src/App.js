@@ -18,7 +18,7 @@ function App() {
       headers: {
         "content-type": "multipart/form-data",
         "x-rapidapi-host": "pen-to-print-handwriting-ocr.p.rapidapi.com",
-        "x-rapidapi-key": "14578ff2b9mshd912d9b574cf7d5p1b6fb0jsn8dc8dd0db025",
+        "x-rapidapi-key": "cec01fb3bbmsha2abee52bc3434ap1b3ca1jsn2ae0b0357b2d",
       },
       data: form,
     };
