@@ -16,7 +16,9 @@
 
 body {
   background-color: #ccaf9b;
-  color: #a06b39;
+  color: #282c34;
+  font-family: Garamond;
+  font-weight: bold;
 }
 
 .App-header {

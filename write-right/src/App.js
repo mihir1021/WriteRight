@@ -18,7 +18,7 @@ function App() {
       headers: {
         "content-type": "multipart/form-data",
         "x-rapidapi-host": "pen-to-print-handwriting-ocr.p.rapidapi.com",
-        "x-rapidapi-key": "2bc95ebda9mshaf46bdbb59d0b4cp14e1bdjsn3702d7601e9d",
+        "x-rapidapi-key": "14578ff2b9mshd912d9b574cf7d5p1b6fb0jsn8dc8dd0db025",
       },
       data: form,
     };
@@ -47,10 +47,10 @@ function App() {
           <input type="submit" value="Extract Text" />
           </div>
        </form>
-       <p className="text">{ocrText}</p>
        <img src={viewImg}
             width="50%"
             height="50%"/>
+       <p className="text">{ocrText}</p>
      </div>
   );
 }
